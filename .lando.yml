@@ -1,0 +1,10 @@
+name: my-lando-app
+recipe: drupal8
+config:
+  webroot: web 
+  drush: "*" 
+  php: "7.2"
+
+services:
+  appserver:
+    type: php:7.3
