@@ -1,0 +1,8 @@
+name: my theme 
+type: theme
+description: 'Basic structure for a theme'
+base theme: stable
+core_version_requirement: ^8 || ^9
+libraries:
+  - mythemes/global-css
+  - mythemes/global-js
