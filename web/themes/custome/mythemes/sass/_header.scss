@@ -1,0 +1,10 @@
+.main-navigation{
+    @include span(10 last);
+    li{
+        float: left;
+    }
+    a{
+        display: block;
+        color: red;
+    }
+}

@@ -5,6 +5,6 @@ global-css:
     header: true
 global-js:
   js:
-    js/min.js: {}
+    js/main.js: {}
   dependencies:
     - core/jquery

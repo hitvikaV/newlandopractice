@@ -6,3 +6,10 @@ core_version_requirement: ^8 || ^9
 libraries:
   - mythemes/global-css
   - mythemes/global-js
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'
