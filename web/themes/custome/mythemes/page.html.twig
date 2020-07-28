@@ -2,9 +2,30 @@
 
   <header role="banner">
     <div class="layout-container">
+    <marquee direction="left" height="40" width="100%" bgcolor="white">
+    05:28:44 PM &nbsp; &nbsp; >>>&nbsp;&nbsp; Corn&nbsp; <span>322^0-3^0&nbsp;&nbsp;</span> Soyabean&nbsp; <span>899^0-0^6&nbsp;&nbsp;</span> Live Cattle &nbsp;<span>100.425P&nbsp;&nbsp;</span> Wheat &nbsp;<span>527^4-0^2&nbsp;&nbsp;</span> ICE Cotton No.2&nbsp; <span>60.34-0.35&nbsp;&nbsp;</span> Milk &nbsp;<span>24.41P&nbsp;&nbsp;</span>
+    </marquee>
     <div class="main-navigation">
     {{ page.main_navigation }}
     </div>
+    <div class="second-nav">
+        <div class="icons">
+          <div class="menu-icon"></div>
+          <div class="search-icon"></div>
+        </div>
+        <div class="logo-img"></div>
+        <div class="temperature"></div>
+    </div>
+      <div class="third-nav">
+        <p style="color: #C9283F">News</p>
+        <p style="color: #295D83">Market</p>
+        <p style="color: #F0940B">Weather</p>
+        <p style="color: #328E65">Crops</p>
+        <p style="color: #109AF5">Buisness</p>
+        <p style="color: #540032">Machinary</p>
+        <p style="color: #AE3C07">Livestock</p>
+        <p style="color: #333333">Fj Feild Days</p>
+      </div>
     </div>
   </header>
 <div class="layout-container">
@@ -14,7 +35,7 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
-      {{ page.content }}
+      {# {{ page.content }} #}
     </div>{# /.layout-content #}
 
     {% if page.sidebar %}
