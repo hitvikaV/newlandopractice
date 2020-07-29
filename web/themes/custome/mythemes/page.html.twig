@@ -32,19 +32,27 @@
 
   
   <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="layout-content">
-      {# {{ page.content }} #}
-    </div>{# /.layout-content #}
-
-    {% if page.sidebar %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar }}
-      </aside>
-    {% endif %}
-
-
+    <div class="main-content-one">
+        <div class="left">
+        <div class="upper">
+           <div class="top-stories">
+              <p>TOP STORY<p>
+              <div class="photo"></div>
+          </div>
+          <div class="upper-content">
+            <p>FARM JOURNAL EVENTS 15:02PM Jul 28, 2020</p>
+            <h1>USDA Sec. Perdue Confirms Participation in Farm Journal Field Days</h1>
+            <p>USDA Secretary Sonny Perdue to speak at Farm Journal Field Days.</p>
+            <span>...</span>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="farmon">
+            <p class="farmon-heading">#FARMON</p>
+          </div>
+        </div>
+        </div>
+    <div>
   </main>
 
   {% if page.footer %}
