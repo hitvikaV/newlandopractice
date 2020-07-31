@@ -185,16 +185,65 @@
         height: 50%;
         display: flex;
         justify-content: space-between;
-        background-color: khaki;
         .news-bottom-one{
             width: 30%;
-            background-color: lightpink;
             height: 100%;
             padding-top: 40px;
             .news-bottom-box-one{
                 width: 100%;
                 height: 30%;
-                background-color: magenta;
+                border-bottom: 1px solid #9F9F9F;
+            }
+            .news-bottom-box-one-head{
+                margin-bottom: 15px;
+                font-weight: bold;
+            }
+            .news-bottom-box-one-time{
+                font-size: 14px;
+            }
+            .news-bottom-box-one-heading{
+                font-size: 23px;
+                font-weight: bold;
+            }
+            p{
+                margin-bottom: 5px;
+                line-height: 23px;
+            }
+            span{
+                color: #328E65;
+            }
+            .news-bottom-box-two{
+                width: 100%;
+                height: 40%;
+                border-bottom: 1px solid #9F9F9F;
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+            .news-bottom-box-three{
+                width: 100%;
+                height: 30%;
+                border-bottom: 1px solid #9F9F9F;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+            .news-bottom-box-second-one{
+                width: 100%;
+                height: 25%;
+                border-bottom: 1px solid #9F9F9F;
+            }
+            .news-bottom-box-second-two{
+                width: 100%;
+                height: 36%;
+                border-bottom: 1px solid #9F9F9F;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+            .news-bottom-box-second-three{
+                width: 100%;
+                height: 27%;
+                border-bottom: 1px solid #9F9F9F;
+                padding-top: 40px;
+                padding-bottom: 40px;
             }
         }
     }
