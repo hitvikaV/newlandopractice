@@ -77,3 +77,15 @@ marquee{
         color: #CA2C42;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    marquee{
+        display: none;
+    }
+    .main-navigation{
+        display: none;
+    }
+    .third-nav{
+        display: none;
+    }
+}
